@@ -11,7 +11,6 @@ import Collection from './pages/Collection';
 const App = () => {
     return ( 
        <div className="app">
-           NavBar
            <div className="content">
              <Switch>
                 <Route exact path="/" component={Home} />

@@ -1,6 +1,9 @@
+import Header from '../components/Header';
+
 const Collection = () => {
     return ( 
         <>
+          <Header theme="black" />
           <h1>Collection for:</h1>
           <ul>
               <li>NEW DROPS</li>
